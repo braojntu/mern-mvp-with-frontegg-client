@@ -1,13 +1,11 @@
 import React from 'react';
-import './login.css';
+import './signup.css';
 const ACCOUNT_URL = process.env.REACT_APP_ACCOUNT_URL;
 
-function Login() {
+export default function Signup() {
   return (
     <div className="login">
-      <a href={`${ACCOUNT_URL}/login`}>Login</a>
+      <a href={`${ACCOUNT_URL}/sign-up`}>Signup</a>
     </div>
   );
 }
-
-export default Login;

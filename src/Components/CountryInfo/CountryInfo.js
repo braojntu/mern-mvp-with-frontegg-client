@@ -55,7 +55,7 @@ export default function CountryInfo() {
               name="search-form"
               id="search-form"
               className="search-input"
-              placeholder="Search..."
+              placeholder="Search"
               onChange={(e) => searchItems(e.target.value)}
             />
           </label>
