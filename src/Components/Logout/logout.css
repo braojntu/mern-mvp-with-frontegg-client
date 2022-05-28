@@ -1,0 +1,14 @@
+.logout {
+  background-color: gold;
+  color: black;
+  border-radius: 24px;
+  padding: 8px 16px;
+}
+
+.logout > a {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+}

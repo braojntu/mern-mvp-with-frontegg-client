@@ -1,0 +1,67 @@
+h2 {
+  margin: 0px;
+  text-align: center;
+  color: black;
+  padding: 1rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 18rem));
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+  height: 12.5rem;
+  object-fit: cover;
+}
+
+.card {
+  height: 25rem;
+  background-color: white;
+}
+
+.card-detail {
+  padding: 1.5rem;
+}
+
+.c-name {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.oth-det {
+  font-size: 0.8rem;
+}
+
+/*CSS for Search Bar*/
+
+.search-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px 20px;
+}
+
+input {
+  border-radius: 24px;
+  padding: 10px;
+  border-style: none;
+  font-size: 16px;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
