@@ -5,7 +5,7 @@ const ACCOUNT_URL = process.env.REACT_APP_ACCOUNT_URL;
 function Logout() {
   return (
     <div className="logout">
-      <a href={`${ACCOUNT_URL}/logout`}>Logout</a>
+      <a href={`${ACCOUNT_URL}/account/logout`}>Logout</a>
     </div>
   );
 }
