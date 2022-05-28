@@ -1,4 +1,7 @@
 import React from 'react';
+import {Routes, Route} from 'react-router-dom';
+import CountryInfo from '../CountryInfo/CountryInfo';
+import './sidemenu.css';
 
 function SideMenu() {
   return (
@@ -7,9 +10,7 @@ function SideMenu() {
         <a className="active" href="#home">
           Home
         </a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+        <a href="/countryinfo">Country Info</a>
       </div>
       <div class="content">
         <h2>Responsive Sidebar Example</h2>
